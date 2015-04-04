@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 
-var port = 80;
+var port = process.env.EXPRESS_PORT || 9027;
 
 // MIDDLEWARE ==================================
 
