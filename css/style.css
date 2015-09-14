@@ -140,14 +140,14 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   #slide-5 {
     display: none;
   }
   #menu-link-5 {
     display: none;
   }
-}
+}*/
 
 @media (max-width: 767px) {
 
