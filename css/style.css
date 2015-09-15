@@ -134,7 +134,7 @@ body {
 	}
 }
 
-@media (max-width: 950px) {
+@media (max-width: 994px) {
   #mediaDisplay {
     display: none;
   }
