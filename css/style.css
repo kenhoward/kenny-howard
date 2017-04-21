@@ -273,6 +273,7 @@ body {
 
 	#home-row-2 {
 		font-size: 25px;
+		font-weight: 500;
 	}
 
 	#home-row-2 .col-12 {
@@ -525,12 +526,18 @@ body {
 		display: none;
 		font-size: 20px;
 	}
-
+/*CH@NGES*/
 #myResume {
 	height: 1000px;
-	width: 1000px;
+	width: 940px;
 }
 
+@media (min-width: 1200px) {
+	#myResume {
+		width: 1020px;
+	}
+}
+/*END*/
 #slide-7 {
 	background-color: #e4e6e5;
 	color: #4e4e4e;
