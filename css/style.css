@@ -3,7 +3,7 @@
 }
 
 body {
-	min-width: 320px;
+	min-width: 350px;
 }
 
 .font-thin {
@@ -113,23 +113,23 @@ body {
 
 #special-active-menu-1,
 #special-active-menu-6 {
-	background-color: #4e4e4e !important;
+	background-color: #7CA9D4 !important;
 }
 
 #special-active-menu-2 {
-	background-color: #1abc9c !important;
+	background-color: #2980b9 !important;
 }
 
 #special-active-menu-3 {
-	background-color: #e74c3c !important;
+	background-color: #2f2f2f !important;
 }
 
 #special-active-menu-4 {
-	background-color: #e67e22 !important;
+	background-color: #34495e !important;
 }
 
 #special-active-menu-5 {
-	background-color: #34495e !important;
+	background-color: #16a085 !important;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -193,11 +193,11 @@ body {
 	}
 
 	.nav li[data-slide="2"] {
-		background-color: #1abc9c;
+		background-color: #2980b9;
 	}
 
 	.nav li[data-slide="3"] {
-		background-color: #e74c3c;
+		background-color: #2f2f2f;
 	}
 
 	.nav li[data-slide="4"] {
@@ -205,7 +205,7 @@ body {
 	}
 
 	.nav li[data-slide="5"] {
-		background-color: #e67e22;
+		background-color: #16a085;
 	}
 
 	.navbar-brand {
@@ -230,7 +230,7 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/bg7.jpg');
+	background-image: url('../images/salt_flats.jpg');
 	height: 700px;
 	color: #ffffff;
     -webkit-background-size: 100%;
@@ -256,6 +256,12 @@ body {
 	position: relative;
 	top: 221px;
 	text-align: left;
+}
+
+@media (max-width: 767px) {
+	#slide-1 .spotify-playlist {
+		display: none;
+	}
 }
 
 @media (max-width: 767px) {
@@ -320,7 +326,7 @@ body {
 }
 
 #slide-2 {
-	background-color: #1abc9c;
+	background-color: #2980b9;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -412,8 +418,12 @@ body {
 	padding-top: 90px;
 }
 
+#slide-4 p {
+	font-weight: 500;
+}
+
 #slide-5 {
-	background-color: #2f2f2f;
+	background-color: #16a085;
 	color: #e4e6e5;
 	padding-bottom: 350px;
 	padding-top: 90px;
@@ -443,9 +453,9 @@ body {
 	}
 }
 
-	#contact-row-4 {
+	/*#contact-row-4 {
 		padding-top: 125px;
-	}
+	}*/
 
 	#contact-row-4 .col-12 {
 		height: 175px;
@@ -588,7 +598,7 @@ body {
 }
 
 #titleAdj {
-	color: #1abc9c;
+	color: #2980b9;
 }
 
 @import url('http://fonts.googleapis.com/css?family=Roboto+Condensed');
