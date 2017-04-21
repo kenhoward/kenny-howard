@@ -1,3 +1,11 @@
+* {
+	position: relative;
+}
+
+body {
+	min-width: 320px;
+}
+
 .font-thin {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 200;
@@ -11,10 +19,6 @@
 .font-light {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 300;
-}
-
-* {
-	position: relative;
 }
 
 .breaker {
@@ -245,6 +249,13 @@ body {
 
 #slide-1 h1 {
 	padding-top: 130px;
+}
+
+#slide-1 .spotify-playlist {
+	color: green;
+	position: relative;
+	top: 221px;
+	text-align: left;
 }
 
 @media (max-width: 767px) {
