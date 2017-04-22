@@ -230,7 +230,7 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/salt_flats.jpg');
+	background-image: url('../images/salt_flats_up.jpg');
 	height: 700px;
 	color: #ffffff;
     -webkit-background-size: 100%;
@@ -251,11 +251,11 @@ body {
 	padding-top: 130px;
 }
 
-#slide-1 .spotify-playlist {
-	color: green;
+#slide-1 .photo-cred {
 	position: relative;
-	top: 221px;
-	text-align: left;
+	top: 275px;
+	text-align: right;
+	color: #FFFFFF;
 }
 
 @media (max-width: 767px) {
@@ -266,8 +266,16 @@ body {
 
 @media (max-width: 767px) {
 	#slide-1 {
-		background-image: none;
-		height: 422px;
+		/*background-image: none;*/
+		/*height: 422px;*/
+	}
+
+	#slide-1 .photo-cred {
+		display: none;
+	}
+
+	#slide-1 .spotify-playlist {
+		display: none;
 	}
 }
 
@@ -370,11 +378,12 @@ body {
 		font-family: "Titillium Web", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 		font-size: 20px;
 		font-weight: 300;
+		min-height: 140px;
 	}
 
 	i {
 		font-size: 80px;
-		color: white;
+		color: #FFFFFF;
 	}
 
 
@@ -404,6 +413,18 @@ body {
 	}
 }
 
+#slide-3 {
+
+}
+
+.port-title {
+	color: #FFF;
+}
+
+.port-desc {
+	color: #FFF;
+}
+
 .carousel-inner h3 {
 	color: #FFFFFF;
 }
@@ -420,6 +441,11 @@ body {
 
 #slide-4 p {
 	font-weight: 500;
+}
+
+.resume-tech {
+	font-weight: 700;
+	color: #2BA9DE;
 }
 
 #slide-5 {
