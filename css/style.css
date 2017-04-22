@@ -413,16 +413,14 @@ body {
 	}
 }
 
-#slide-3 {
-
-}
-
 .port-title {
 	color: #FFF;
 }
 
 .port-desc {
 	color: #FFF;
+	padding-top: 17px;
+	text-align: left;
 }
 
 .carousel-inner h3 {
@@ -555,8 +553,14 @@ body {
 	height: 80px;
 	position: fixed;
 	right: 10%;
-	width: 80px;
+	/*width: 80px;*/
 	z-index: 1000;
+}
+
+@media (max-width: 600px) {
+	#arrows {
+		width: 80px;
+	}
 }
 
 #arrows div {
