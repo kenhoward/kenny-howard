@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-	<title>Kenny Howard - Web Developer</title>
+	<title>Kenny Howard - Software Craftsman</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/resume.css">
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -57,13 +57,16 @@
 			<div id="home-row-1" class="row clearfix">
 				<div class="col-12">
 					<h1 class="font-semibold">Kenny <span class="font-thin">Howard</span></h1>
-					<h4 class="font-thin">Web Developer <span class="font-semibold">Extraordinaire</span></h4>
+					<h4 class="font-thin">Software <span class="font-semibold">Craftsman</span></h4>
 					<br>
 					<br>
 					<br>
 				</div><!-- /col-12 -->
 			</div><!-- home row -->
 		</div><!-- /container -->
+		<div class="photo-cred">
+			<p>Photo By: <a target="_blank" href="http://danielkordan.com/">Kordan</a></p>
+		</div>
 	</div><!-- /slide1 -->
 
 	<!-- Slide 2 -->
@@ -76,21 +79,19 @@
 				<div class="hr">&nbsp;</div>
 			</div><!-- /row -->
 			<div class="row subtitle-row">
-				<div class="col-12 font-thin">I am a passionate web developer who works primarily in JavaScript using React and Angular. I strive to create and maintain beautiful lines of code in the most efficient way possible.<br />I'm currently building fun web apps with cool technologies like Redux, Webpack, and Firebase to name a few.</div>
+				<div class="col-12 font-thin">I am a passionate web developer working in HTML, CSS, and JavaScript. I strive to create and maintain beautiful lines of code in the most efficient way possible. Currently building fun web apps with cool technologies like React, Redux, and Webpack to name a few.</div>
 
 			</div><!-- /row -->
 			<div class="row content-row">
 				<div class="col-12 col-lg-3 col-sm-6">
 					<p><i class="fa fa-building-o fa-5x hvr-wobble-to-top-right" aria-hidden="true"></i></p>
 					<h2 class="font-thin">Work <span class="font-semibold">Life</span></h2>
-					<h4 class="font-thin">Currently working with Overstock.com where I get to work with some pretty awesome technology. We strive to constantly reduce load times
-
-					Previously in banking, I decided to pivot my career towards a better option. I sought the help of DevMountain to accomplish this change, and now I am always hungry for more!</h4>
+					<h4 class="font-thin">Working with a great team at Overstock.com where I get to work with some awesome technology. We strive to constantly to enhance user exerience.</h4>
 				</div><!-- /col12 -->
 				<div class="col-12 col-lg-3 col-sm-6">
 					<p><i class="fa fa-heart-o fa-5x hvr-pulse" aria-hidden="true"></i></p><!-- heartbeat -->
 					<h2 class="font-thin">What I <span class="font-semibold">Love</span></h2>
-					<h4 class="font-thin">I love my family, building amazing web apps, traveling, sports, and the quest for <span class="font-semibold">knowledge</span>!</h4>
+					<h4 class="font-thin">I love my family, building awesome web apps, sports, traveling, and the never-ending quest for <span class="font-semibold">knowledge</span>!</h4>
 				</div><!-- /col12 -->
 				<div class="col-12 col-lg-3 col-sm-6">
 					<p><i class="fa fa-anchor fa-5x hvr-wobble-vertical" aria-hidden="true"></i></p>
@@ -98,9 +99,9 @@
 					<h4 class="font-thin">I strive to go the extra mile, and I don't like complacency. I believe in not only working hard, but working smart to solve the problems in front of me.</h4>
 				</div><!-- /col12 -->
 				<div class="col-12 col-lg-3 col-sm-6">
-					<p><i class="fa fa-motorcycle fa-5x hvr-bob" aria-hidden="true"></i></p>
-					<h2 class="font-thin">Ready to <span class="font-semibold">Roll!</span></h2>
-					<h4 class="font-thin">I am always eager to keep up with the newest technologies out there. I look for any and all opportunities to further my knowledge!</h4>
+					<p><i class="fa fa-code fa-5x hvr-bob" aria-hidden="true"></i></p>
+					<h2 class="font-thin">Keep <span class="font-semibold">Learning</span></h2>
+					<h4 class="font-thin">I'm Currently focusing on React with Redux, but also dabbling with Python in order to utilize deep learning into my projects.</h4>
 				</div><!-- /col12 -->
 			</div><!-- /row -->
 		</div><!-- /container -->
@@ -108,72 +109,78 @@
 
 	<!-- SLide 3 - Portfolio -->
 	<div class="slide story" id="slide-3" data-slide="3">
-		<div class="carousel slide" id="myCarousel">
-			<div class="carousel-inner">
-				<div class="item active">
-					<div class="bannerImage">
-						<a href="#"><img src="http://placehold.it/960x405" alt=""></a>
-					</div>
-					<div class="caption row-fluid">
-						<div class="col-md-4"><h3>Slide 1</h3>
-							<a class="btn btn-mini" href="#">&raquo; Read More</a>
+		<div class="container">
+
+			<div class="carousel slide" id="myCarousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="banner-image">
+							<!-- TODO RETHINK THIS -->
+							<a href="#"><img class="lg-img" src="http://placehold.it/960x405" alt=""></a>
+							<!-- <a href="#"><img class="md-img" src="http://placehold.it/728x405" alt=""></a>
+							<a href="#"><img class="sm-img" src="http://placehold.it/728x405" alt=""></a> -->
 						</div>
-						<div class="col-md-8"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-						</div>
-					</div>
-				</div><!-- /Portfolio Item 1 -->
-				<div class="item">
-					<div class="bannerImage">
-						<a href="#"><img src="http://placehold.it/960x405" alt=""></a>
-					</div>
-					<div class="caption row-fluid">
-						<div class="col-md-4"><h3>Slide 2</h3>
-							<a class="btn btn-mini" href="#">&raquo; Read More</a>
-						</div>
-						<div class="col-md-8"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+						<div class="caption row-fluid">
+							<div class="col-sm-4 port-title"><h3>Portfolio Item 1</h3>
+								<a class="btn btn-mini" href="#">See Project ></a>
+							</div>
+							<div class="col-sm-8 port-desc"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+							</div>
 						</div>
 					</div>
-				</div><!-- /Portfolio Item 2 -->
-				<div class="item">
-					<div class="bannerImage">
-						<a href="#"><img src="http://placehold.it/960x405" alt=""></a>
-					</div>
-					<div class="caption row-fluid">
-						<div class="col-md-4"><h3>Slide 3</h3>
-							<a class="btn btn-mini" href="#">&raquo; Read More</a>
+					<div class="item">
+						<div class="banner-image">
+							<a href="#"><img src="http://placehold.it/960x405" alt=""></a>
 						</div>
-						<div class="col-md-8"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-						</div>
-					</div>
-				</div><!-- /Portfolio Item 3 -->
-				<div class="item">
-					<div class="bannerImage">
-						<a href="#"><img src="http://placehold.it/960x405" alt=""></a>
-					</div>
-					<div class="caption row-fluid">
-						<div class="col-md-4"><h3>Slide 4</h3>
-							<a class="btn btn-mini" href="#">&raquo; Read More</a>
-						</div>
-						<div class="col-md-8"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+						<div class="caption row-fluid">
+							<div class="col-sm-4 port-title"><h3>Slide 2</h3>
+								<a class="btn btn-mini" href="#">See Project ></a>
+							</div>
+							<div class="col-sm-8 port-desc"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+							</div>
 						</div>
 					</div>
-				</div><!-- /Portfolio Item 4 -->
-				<div class="item">
-					<div class="bannerImage">
-						<a href="#"><img src="http://placehold.it/960x405" alt=""></a>
-					</div>
-					<div class="caption row-fluid">
-						<div class="col-md-4"><h3>Slide 5</h3>
-							<a class="btn btn-mini" href="#">&raquo; Read More</a>
+					<div class="item">
+						<div class="banner-image">
+							<a href="#"><img src="http://placehold.it/960x405" alt=""></a>
 						</div>
-						<div class="col-md-8"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+						<div class="caption row-fluid">
+							<div class="col-sm-4 port-title"><h3>Slide 3</h3>
+								<a class="btn btn-mini" href="#">See Project ></a>
+							</div>
+							<div class="col-sm-8 port-desc"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+							</div>
 						</div>
 					</div>
-				</div><!-- /Portfolio Item 5 -->
-			</div>
-			<div class="control-box">
-				<a data-slide="prev" href="#myCarousel" class="carousel-control left"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
-				<a data-slide="next" href="#myCarousel" class="carousel-control right"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+					<div class="item">
+						<div class="banner-image">
+							<a href="#"><img src="http://placehold.it/960x405" alt=""></a>
+						</div>
+						<div class="caption row-fluid">
+							<div class="col-sm-4 port-title"><h3>Slide 4</h3>
+								<a class="btn btn-mini" href="#">See Project ></a>
+							</div>
+							<div class="col-sm-8 port-desc"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="banner-image">
+							<a href="#"><img src="http://placehold.it/960x405" alt=""></a>
+						</div>
+						<div class="caption row-fluid">
+							<div class="col-sm-4 port-title"><h3>Slide 5</h3>
+								<a class="btn btn-mini" href="#">See Project ></a>
+							</div>
+							<div class="col-sm-8 port-desc"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="control-box">
+					<a data-slide="prev" href="#myCarousel" class="carousel-control left"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+					<a data-slide="next" href="#myCarousel" class="carousel-control right"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 	</div><!-- /slide3 -->
@@ -260,6 +267,9 @@
 									<p class="text-muted">
 										This five-star code school allowed for my passion of coding to take off. During my time here, I did contract work for the LDS Church as well as other personal projects.
 									</p>
+									<p>
+										<span class="resume-tech devmtn">Technologies Used:</span> HTML, CSS, bootstrap, jQuery, AngularJS, Node.js, Express, MongoDB, Firebase
+									</p>
 								</div>
 							</div>
 						</li>
@@ -270,12 +280,15 @@
 							</div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h4>Zaact (Formally ITG)</h4>
+									<h4>Zaact (Formerly ITG)</h4>
 									<h4 class="subheading">May 2015 - Nov 2015</h4>
 								</div>
 								<div class="timeline-body">
 									<p class="text-muted">
-										ITG gave me the opportunity to utilize my problem-solving skills as a front-end consultant. I got to communicate with great clients and help them reach solutions to their business needs.
+										Zaact gave me the opportunity to utilize my problem-solving skills as a front-end dev consultant. I got to communicate with great clients and help them reach solutions to their business needs.
+									</p>
+									<p>
+										<span class="resume-tech zaact">Technologies Used:</span> HTML, CSS, bootstrap, jQuery, AngularJS, SharePoint
 									</p>
 								</div>
 							</div>
@@ -292,7 +305,10 @@
 								</div>
 								<div class="timeline-body">
 									<p class="text-muted">
-										I am a front-end developer working on the development production team where I seek to maximize availability, accessibility, and utility of content and services for our users worldwide.
+										I'm working as a front-end developer on the homepage dev team where I seek to maximize availability, accessibility, and utility of content and services for our users worldwide.
+									</p>
+									<p>
+										<span class="resume-tech ostk">Technologies Used:</span> HTML, CSS, Less, Sass, bootstrap, jQuery, React, Redux, Webpack, Grunt, Gulp
 									</p>
 								</div>
 							</div>
@@ -328,21 +344,21 @@
 	<div class="slide story" id="slide-5" data-slide="5">
 		<div class="container">
 			<div class="row title-row">
-				<div class="col-12 font-light hvr-buzz-out">Let's<span class="font-semibold">Chat!</span></div>
+				<div class="col-12 font-light hvr-buzz-out">Let's <span class="font-semibold">Chat!</span></div>
 			</div><!-- /row -->
 			<div class="row line-row">
 				<div class="hr">&nbsp;</div>
 			</div><!-- /row -->
 			<div class="row subtitle-row">
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">Feel free to contact me about any job opportunities or if you would like to work on a side project. I look forward to speaking with you!</div>
+				<div class="col-12 col-sm-10 font-light">Feel free to contact me if you would like to work on a side project or would like to get to know me better. I look forward to speaking with you!</div>
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 			</div><!-- /row -->
 
 			<div id="contact-row-4" class="row">
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a href="mailto:ken.chad.howard@gmail.com"><i class="icon icon-envelope"></i></a></p>
+					<p><a href="mailto:ken.chad.howard@gmail.com"><i class="fa fa-envelope-open-o fa-5x" aria-hidden="true"></i></a></p>
 					<span class="hover-text font-light ">ken.chad.howard<br />@gmail.com</span></a>
 				</div><!-- /col12 -->
 				<div class="col-12 col-sm-2 with-hover-text">
@@ -350,15 +366,15 @@
 					<span class="hover-text font-light ">stackoverflow/<br />kenhow</span></a>
 				</div><!-- /col12 -->
 				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="https://github.com/kenhoward"><i class="icon icon-github-alt"></i></a></p>
+					<p><a target="_blank" href="https://github.com/kenhoward"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a></p>
 					<span class="hover-text font-light ">github/<br />kenhoward</span></a>
 				</div><!-- /col12 -->
 				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="https://www.linkedin.com/in/kennychadhoward"><i class="icon icon-linkedin"></i></a></p>
+					<p><a target="_blank" href="https://www.linkedin.com/in/kennychadhoward"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a></p>
 					<span class="hover-text font-light ">linkedin/<br />kenny howard</span></a>
 				</div><!-- /col12 -->
 				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="https://twitter.com/_kenhow"><i class="icon icon-twitter"></i></a></p>
+					<p><a target="_blank" href="https://twitter.com/_kenhow"><i class="fa fa-twitter fa-5x" aria-hidden="true"></i></a></p>
 					<span class="hover-text font-light ">@_kenhow</span></a>
 				</div><!-- /col12 -->
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>

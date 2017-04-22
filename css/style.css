@@ -1,3 +1,11 @@
+* {
+	position: relative;
+}
+
+body {
+	min-width: 350px;
+}
+
 .font-thin {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 200;
@@ -11,10 +19,6 @@
 .font-light {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 300;
-}
-
-* {
-	position: relative;
 }
 
 .breaker {
@@ -109,23 +113,23 @@ body {
 
 #special-active-menu-1,
 #special-active-menu-6 {
-	background-color: #4e4e4e !important;
+	background-color: #7CA9D4 !important;
 }
 
 #special-active-menu-2 {
-	background-color: #1abc9c !important;
+	background-color: #2980b9 !important;
 }
 
 #special-active-menu-3 {
-	background-color: #e74c3c !important;
+	background-color: #2f2f2f !important;
 }
 
 #special-active-menu-4 {
-	background-color: #e67e22 !important;
+	background-color: #34495e !important;
 }
 
 #special-active-menu-5 {
-	background-color: #34495e !important;
+	background-color: #16a085 !important;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -189,11 +193,11 @@ body {
 	}
 
 	.nav li[data-slide="2"] {
-		background-color: #1abc9c;
+		background-color: #2980b9;
 	}
 
 	.nav li[data-slide="3"] {
-		background-color: #e74c3c;
+		background-color: #2f2f2f;
 	}
 
 	.nav li[data-slide="4"] {
@@ -201,7 +205,7 @@ body {
 	}
 
 	.nav li[data-slide="5"] {
-		background-color: #e67e22;
+		background-color: #16a085;
 	}
 
 	.navbar-brand {
@@ -226,7 +230,7 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/bg7.jpg');
+	background-image: url('../images/salt_flats_up.jpg');
 	height: 700px;
 	color: #ffffff;
     -webkit-background-size: 100%;
@@ -247,10 +251,31 @@ body {
 	padding-top: 130px;
 }
 
+#slide-1 .photo-cred {
+	position: relative;
+	top: 275px;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+	#slide-1 .spotify-playlist {
+		display: none;
+	}
+}
+
 @media (max-width: 767px) {
 	#slide-1 {
-		background-image: none;
-		height: 422px;
+		/*background-image: none;*/
+		/*height: 422px;*/
+	}
+
+	#slide-1 .photo-cred {
+		display: none;
+	}
+
+	#slide-1 .spotify-playlist {
+		display: none;
 	}
 }
 
@@ -309,7 +334,7 @@ body {
 }
 
 #slide-2 {
-	background-color: #1abc9c;
+	background-color: #2980b9;
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -353,11 +378,12 @@ body {
 		font-family: "Titillium Web", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 		font-size: 20px;
 		font-weight: 300;
+		min-height: 140px;
 	}
 
 	i {
 		font-size: 80px;
-		color: white;
+		color: #FFFFFF;
 	}
 
 
@@ -387,6 +413,20 @@ body {
 	}
 }
 
+.banner-image img {
+	width: 100%;
+}
+
+.port-title {
+	color: #FFF;
+}
+
+.port-desc {
+	color: #FFF;
+	padding-top: 17px;
+	text-align: left;
+}
+
 .carousel-inner h3 {
 	color: #FFFFFF;
 }
@@ -401,8 +441,17 @@ body {
 	padding-top: 90px;
 }
 
+#slide-4 p {
+	font-weight: 500;
+}
+
+.resume-tech {
+	font-weight: 700;
+	color: #2BA9DE;
+}
+
 #slide-5 {
-	background-color: #2f2f2f;
+	background-color: #16a085;
 	color: #e4e6e5;
 	padding-bottom: 350px;
 	padding-top: 90px;
@@ -432,9 +481,9 @@ body {
 	}
 }
 
-	#contact-row-4 {
+	/*#contact-row-4 {
 		padding-top: 125px;
-	}
+	}*/
 
 	#contact-row-4 .col-12 {
 		height: 175px;
@@ -508,8 +557,20 @@ body {
 	height: 80px;
 	position: fixed;
 	right: 10%;
-	width: 80px;
+	/*width: 80px;*/
 	z-index: 1000;
+}
+
+@media (max-width: 600px) {
+	#arrows {
+		width: 80px;
+	}
+}
+
+@media (max-width: 500px) {
+	#arrows {
+		display: none;
+	}
 }
 
 #arrows div {
@@ -577,7 +638,7 @@ body {
 }
 
 #titleAdj {
-	color: #1abc9c;
+	color: #2980b9;
 }
 
 @import url('http://fonts.googleapis.com/css?family=Roboto+Condensed');
