@@ -413,6 +413,10 @@ body {
 	}
 }
 
+.banner-image img {
+	width: 100%;
+}
+
 .port-title {
 	color: #FFF;
 }
@@ -560,6 +564,12 @@ body {
 @media (max-width: 600px) {
 	#arrows {
 		width: 80px;
+	}
+}
+
+@media (max-width: 500px) {
+	#arrows {
+		display: none;
 	}
 }
 
