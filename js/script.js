@@ -211,7 +211,7 @@ jQuery(document).ready(function ($) {
 // Portfolio Timer
 jQuery(document).ready(function() {
   $('.carousel').carousel({
-	interval: 400000
+	interval: 4000
   })
 });
 
