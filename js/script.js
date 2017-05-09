@@ -7,8 +7,8 @@ $(document).ready(function(e) {
 	$('#resumeToggle').hide();
 
 	$('#buttonToggle').click(function() {
-		// $('#resumeToggle').toggle('fast');
-		 window.open('http://localhost:8080/resume/');
+		$('#resumeToggle').toggle('fast');
+		//  window.open('http://localhost:8080/resume/');
 	})
 
 	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
