@@ -336,7 +336,7 @@ body {
 #slide-2 {
 	background-color: #2980b9;
 	color: #e4e6e5;
-	padding-top: 90px;
+	/*padding-top: 90px;*/
 }
 
 	.title-row {
@@ -513,7 +513,7 @@ body {
 #slide-4 {
 	background-color: #34495e;
 	color: #e4e6e5;
-	padding-top: 90px;
+	/*padding-top: 90px;*/
 }
 
 #slide-4 p {
@@ -525,11 +525,31 @@ body {
 	color: #2BA9DE;
 }
 
+@media (max-width: 767px) {
+	.control-box i {
+		position: relative;
+		bottom: 500px;
+		color: #e74c3c;
+	}
+}
+
+@media (max-width: 700px) {
+	.control-box i {
+		bottom: 420px;
+	}
+}
+
+@media (max-width: 600px) {
+	.control-box i {
+		bottom: 450px;
+	}
+}
+
 #slide-5 {
 	background-color: #16a085;
 	color: #e4e6e5;
 	padding-bottom: 350px;
-	padding-top: 90px;
+	/*padding-top: 90px;*/
 }
 
 @media (max-width: 767px) {
@@ -551,8 +571,8 @@ body {
 
 @media (max-width: 767px) {
 	.with-hover-text{
-		margin-bottom: 2em;
-		margin-top: 1em;
+		/*margin-bottom: 2em;*/
+		/*margin-top: 1em;*/
 	}
 }
 
