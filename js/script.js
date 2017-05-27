@@ -1,4 +1,3 @@
-
 $(document).ready(function(e) {
 	$('.with-hover-text, .regular-link').click(function(e){
 		e.stopPropagation();
@@ -207,6 +206,17 @@ jQuery(document).ready(function ($) {
 			$('.special-active-menu').remove();
 		}
 	);
+});
+
+jQuery(document).ready(function() {
+  $(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});
+
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
 });
 
 // Portfolio Timer
