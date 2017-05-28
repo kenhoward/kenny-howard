@@ -529,7 +529,7 @@ body {
 	.control-box i {
 		position: relative;
 		bottom: 500px;
-		color: #e74c3c;
+		color: #16a085;
 	}
 }
 
@@ -553,6 +553,12 @@ body {
 }
 
 @media (max-width: 767px) {
+	.slide {
+		padding-bottom: 20px;
+	}
+	#slide-5 {
+		padding-bottom: 0px;
+	}
 	#slide-6 {
 		background-image: none;
 	}
