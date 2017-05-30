@@ -138,10 +138,20 @@ body {
 	}
 }
 
-@media (max-width: 994px) {
+#mobileResumeDisplay {
+	display: none;
+}
+
+@media (max-width: 991px) {
   #mediaDisplay {
     display: none;
   }
+}
+
+@media (max-width: 991px) {
+	#mobileResumeDisplay {
+		display: block;
+	}
 }
 
 /*@media (max-width: 767px) {
@@ -790,7 +800,7 @@ body {
     position: absolute;
     text-align: center;
     padding: 10px;
-    border: #000000 solid 1px;
+    border: #FFFFFF solid 1px;
     pointer-events: none;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -799,7 +809,7 @@ body {
 
 .b07_3d_double_roll div:nth-child(1) {
     color: #000000;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     z-index: 0;
     width: 100%;
     height: 50px;
@@ -818,7 +828,7 @@ body {
 
 .b07_3d_double_roll div:nth-child(2) {
     color: #000000;
-    background-color: #000000;
+    background-color: #3498db;
     z-index: -1;
     width: 100%;
     height: 50px;
@@ -837,7 +847,7 @@ body {
 
 .b07_3d_double_roll div:nth-child(3) {
     color: #000000;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     z-index: 0;
     width: 100%;
     height: 50px;
@@ -856,7 +866,7 @@ body {
 
 .b07_3d_double_roll div:nth-child(4) {
     color: #000000;
-    background-color: #000000;
+    background-color: #3498db;
     z-index: -1;
     width: 100%;
     height: 50px;
@@ -874,7 +884,7 @@ body {
 }
 
 .b07_3d_double_roll:hover div:nth-child(1) {
-    background-color: #000000;
+    background-color: #3498db;
     transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -894,7 +904,7 @@ body {
 }
 
 .b07_3d_double_roll:hover div:nth-child(3) {
-    background-color: #000000;
+    background-color: #3498db;
     transition: all 0.2s ease 0.1s;
     -webkit-transition: all 0.2s ease 0.1s;
     -moz-transition: all 0.2s ease 0.1s;
