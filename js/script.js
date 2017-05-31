@@ -7,7 +7,10 @@ $(document).ready(function(e) {
 
 	$('#buttonToggle').click(function() {
 		$('#resumeToggle').toggle('fast');
-		//  window.open('http://localhost:8080/resume/');
+	})
+
+	$('#mobileButtonToggle').click(function() {
+		 window.open('http://localhost:8080/images/websiteResume.pdf');
 	})
 
 	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
