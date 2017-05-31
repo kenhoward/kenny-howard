@@ -1,0 +1,172 @@
+* {
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#resume-container {
+    width: 60%;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-family: "Open Sans", Helvetica, Verdana, sans-serif;
+    color: #3e3e3e;
+}
+
+#resume-container h1 h2 h3 {
+    font-family: "Montserrat", Helvetica, "Questrial", Verdana, sans-serif;
+    color: #0f0f0f;
+}
+
+#back-to-home {
+    background-color: #3e3e3e;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 50px
+}
+
+#back-to-home a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 5px 15px;
+    font-weight: 300;
+    font-size: 90%;
+}
+
+header img {
+    width: 15%;
+    min-width: 110px;
+    max-width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #3e3e3e;
+    padding: 2px;
+}
+
+header h1 span {
+    font-weight: normal;
+    display: block;
+    font-size: 85%;
+}
+
+header h1 a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: #494949;
+    text-decoration: underline;
+}
+
+main ul {
+    padding: 0;
+}
+
+main ul h4, main ul h5 {
+    margin: 10px 0;
+}
+
+.span-light {
+    font-weight: normal;
+}
+
+main ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 90%;
+    line-height: 20px;
+}
+
+main ul li strong {
+    font-weight: 700;
+}
+
+main ul li span.tooltip-target {
+    color: #000;
+    cursor: default;
+}
+
+main ul li span.tooltip-target:hover {
+    cursor: pointer;
+}
+
+main ul li span.tooltip-target .tooltip {
+    opacity: 0;
+    display: inline;
+    position: absolute;
+    width: 8%;
+    height: auto;
+    background-color: #3e3e3e;
+    border: 1px solid #1f1f1f;
+    box-shadow: 0px 0px 2px #4e4e4e;
+    color: #fefefe;
+    font-size: 80%;
+    border-radius: 2px;
+    text-align: center;
+    padding: 2px;
+    /*margin-left: 5px;*/
+}
+
+main ul li span.tooltip-target .tooltip li {
+    line-height: 15px;
+}
+
+main ul li span.tooltip-target:hover .tooltip {
+    opacity: 1;
+}
+
+footer {
+    margin: 40px 0;
+}
+
+footer section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .footer-button {
+    display: inline-block;
+    margin: 0 2px 0 2px;
+}
+
+footer .footer-button a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-size: 85%;
+    border: 2px solid #3e3e3e;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+
+footer .footer-button a:hover {
+    background: #f3f3f3;
+}
+
+@media screen and (max-width: 970px) {
+    #resume-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #resume-container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #resume-container {
+        width: 90%;
+    }
+    header h1 {
+        margin-left: 0;
+    }
+}
