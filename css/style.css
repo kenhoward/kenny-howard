@@ -350,6 +350,7 @@ body {
 }
 
 	.title-row {
+		cursor: default;
 		font-size: 45px;
 		padding-bottom: 50px;
 	}
@@ -470,6 +471,11 @@ body {
 
 .work-in-progress {
 	color: #e74c3c;
+	font-weight: 600;
+}
+
+.refactor-in-progress {
+	color: #66DBF9;
 	font-weight: 600;
 }
 
