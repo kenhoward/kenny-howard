@@ -240,7 +240,7 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/starman3.png');
+	background-image: url('../images/salt_flats_up.jpg');
 	height: 700px;
 	color: #ffffff;
     -webkit-background-size: 100%;
@@ -268,11 +268,7 @@ body {
 	color: #FFFFFF;
 }
 
-@media (max-width: 767px) {
-	#slide-1 .spotify-playlist {
-		display: none;
-	}
-}
+#slide-1 .photo-cred a { color: #FFFFFF; }
 
 @media (max-width: 767px) {
 	#slide-1 {
@@ -296,10 +292,12 @@ body {
 
 	#home-row-1 h1 {
 		font-size: 54px;
+		color: #000;
 	}
 
 	#home-row-1 h4 {
 		font-size: 32px;
+		color: #000;
 	}
 
 	#home-row-2 {
