@@ -240,7 +240,8 @@ body {
 }
 
 #slide-1 {
-	background-image: url('../images/salt_flats_up.jpg');
+  /* hero image */
+	background-image: url('../images/do_not_got_gentle_into_that_good_night.jpg');
 	height: 700px;
 	color: #ffffff;
     -webkit-background-size: 100%;
@@ -292,12 +293,12 @@ body {
 
 	#home-row-1 h1 {
 		font-size: 54px;
-		color: #000;
+		color: #FFF;
 	}
 
 	#home-row-1 h4 {
 		font-size: 32px;
-		color: #000;
+		color: #FFF;
 	}
 
 	#home-row-2 {
