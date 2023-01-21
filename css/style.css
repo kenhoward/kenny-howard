@@ -540,6 +540,15 @@ body {
 	color: #2BA9DE;
 }
 
+.control-box {
+  position: relative;
+  bottom: 450px;
+}
+
+.control-box i {
+  color: #7f8c8d;
+}
+
 @media (max-width: 767px) {
 	.control-box i {
 		position: relative;
