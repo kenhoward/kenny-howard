@@ -462,6 +462,18 @@ body {
 	}
 }
 
+.port-title {
+	color: #FFF;
+}
+
+.port-desc {
+	color: #FFF;
+	min-height: 157px;
+	padding-top: 17px;
+	text-align: left;
+	line-height: 1.5 !important;
+}
+
 .wip {
   text-transform: uppercase;
   background-image: linear-gradient(
@@ -493,26 +505,16 @@ body {
   }
 }
 
-.port-title {
-	color: #FFF;
-}
-
-.port-desc {
-	color: #FFF;
-	min-height: 157px;
-	padding-top: 17px;
-	text-align: left;
-	line-height: 1.5 !important;
-}
-
-.work-in-progress {
-	color: #e74c3c;
-	font-weight: 600;
-}
-
 .refactor-in-progress {
 	color: #66DBF9;
-	font-weight: 600;
+}
+
+.completed {
+  color: #55efc4;
+}
+
+.bold-status {
+  font-weight: 600;
 }
 
 .carousel-inner h3 {
