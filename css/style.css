@@ -606,7 +606,7 @@ body {
 
 @media (max-width: 600px) {
 	.control-box i {
-		bottom: 0px;
+		display: none;
 	}
 }
 
