@@ -234,8 +234,9 @@ body {
 .slide {
 	background-position: center center;
 	background-repeat: no-repeat;
-	padding-bottom: 65px;
-	padding-top: 50px;
+	/* padding-bottom: 65px;
+	padding-top: 50px; */
+  padding: 40px 0;
 	text-align: center;
 }
 
@@ -427,6 +428,10 @@ body {
 /*#slide-3 .slide {
 	padding-top: 30px;
 }*/
+
+.item {
+  display: block;
+}
 
 .banner-image img {
 	text-align: center;
@@ -630,17 +635,6 @@ body {
 		outline: none;
 		text-decoration: none;
 	}
-
-@media (max-width: 767px) {
-	.with-hover-text{
-		/*margin-bottom: 2em;*/
-		/*margin-top: 1em;*/
-	}
-}
-
-	/*#contact-row-4 {
-		padding-top: 125px;
-	}*/
 
 	#contact-row-4 .col-12 {
 		height: 175px;
