@@ -139,10 +139,11 @@ body {
 }
 
 #mobileResumeDisplay {
-	display: none;
+	display: block;
 }
 
-@media (max-width: 991px) {
+/* TODO Need to figure out why object data isn't working */
+/* @media (max-width: 991px) {
   #mediaDisplay {
     display: none;
   }
@@ -152,7 +153,7 @@ body {
 	#mobileResumeDisplay {
 		display: block;
 	}
-}
+} */
 
 /*@media (max-width: 767px) {
   #slide-5 {
@@ -234,14 +235,16 @@ body {
 .slide {
 	background-position: center center;
 	background-repeat: no-repeat;
-	padding-bottom: 65px;
-	padding-top: 50px;
+	/* padding-bottom: 65px;
+	padding-top: 50px; */
+  padding: 40px 0;
 	text-align: center;
 }
 
 #slide-1 {
   /* hero image */
-	background-image: url('../images/do_not_got_gentle_into_that_good_night.jpg');
+	/* background-image: url('../images/do_not_got_gentle_into_that_good_night.jpg'); */
+	background-image: url('../images/salt_flats_up.jpg');
 	height: 700px;
 	color: #ffffff;
     -webkit-background-size: 100%;
@@ -427,6 +430,10 @@ body {
 	padding-top: 30px;
 }*/
 
+.item {
+  display: block;
+}
+
 .banner-image img {
 	text-align: center;
 	max-width: 1228px;
@@ -468,14 +475,47 @@ body {
 	line-height: 1.5 !important;
 }
 
-.work-in-progress {
-	color: #e74c3c;
-	font-weight: 600;
+.wip {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    /* #2c6975 0%,
+    #68b2a0 29%,
+    #cde0c9 67%,
+    #e0ecde 100% */
+    #C73866 0%,
+    #FE676E 29%,
+    #FD8F52 67%,
+    #FFBD71 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .refactor-in-progress {
 	color: #66DBF9;
-	font-weight: 600;
+}
+
+.completed {
+  color: #55efc4;
+}
+
+.bold-status {
+  font-weight: 600;
 }
 
 .carousel-inner h3 {
@@ -540,23 +580,33 @@ body {
 	color: #2BA9DE;
 }
 
+.control-box {
+  position: relative;
+  color: #7f8c8d;
+  bottom: 450px;
+}
+
+.control-box i {
+  color: #7f8c8d;
+}
+
 @media (max-width: 767px) {
 	.control-box i {
 		position: relative;
-		bottom: 500px;
-		color: #16a085;
+		bottom: 100px;
+		color: #00b894;
 	}
 }
 
 @media (max-width: 700px) {
 	.control-box i {
-		bottom: 420px;
+		bottom: 40px;
 	}
 }
 
 @media (max-width: 600px) {
 	.control-box i {
-		bottom: 450px;
+		bottom: 0px;
 	}
 }
 
@@ -589,17 +639,6 @@ body {
 		outline: none;
 		text-decoration: none;
 	}
-
-@media (max-width: 767px) {
-	.with-hover-text{
-		/*margin-bottom: 2em;*/
-		/*margin-top: 1em;*/
-	}
-}
-
-	/*#contact-row-4 {
-		padding-top: 125px;
-	}*/
 
 	#contact-row-4 .col-12 {
 		height: 175px;
