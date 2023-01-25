@@ -139,10 +139,11 @@ body {
 }
 
 #mobileResumeDisplay {
-	display: none;
+	display: block;
 }
 
-@media (max-width: 991px) {
+/* TODO Need to figure out why object data isn't working */
+/* @media (max-width: 991px) {
   #mediaDisplay {
     display: none;
   }
@@ -152,7 +153,7 @@ body {
 	#mobileResumeDisplay {
 		display: block;
 	}
-}
+} */
 
 /*@media (max-width: 767px) {
   #slide-5 {
