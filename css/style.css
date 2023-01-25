@@ -581,6 +581,7 @@ body {
 
 .control-box {
   position: relative;
+  color: #7f8c8d;
   bottom: 450px;
 }
 
@@ -591,20 +592,20 @@ body {
 @media (max-width: 767px) {
 	.control-box i {
 		position: relative;
-		bottom: 500px;
-		color: #16a085;
+		bottom: 100px;
+		color: #00b894;
 	}
 }
 
 @media (max-width: 700px) {
 	.control-box i {
-		bottom: 420px;
+		bottom: 40px;
 	}
 }
 
 @media (max-width: 600px) {
 	.control-box i {
-		bottom: 450px;
+		bottom: 0px;
 	}
 }
 
