@@ -243,7 +243,7 @@ body {
 
 #slide-1 {
   /* hero image */
-	background-image: url('../images/salt_flats_up.jpg');
+	background-image: url('https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329730/personal_website_v1/salt_flats_up_emcv2b.jpg');
 	height: 700px;
 	color: #ffffff;
     -webkit-background-size: 100%;

@@ -10,7 +10,7 @@ $(document).ready(function(e) {
 	})
 
 	$('#mobileButtonToggle').click(function() {
-		 window.open('http://kennychadhoward.com/images/websiteResume.pdf');
+		window.open('http://kennychadhoward.com/images/websiteResume.pdf');
 	})
 
 	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
